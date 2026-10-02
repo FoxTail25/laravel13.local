@@ -37,6 +37,9 @@
                             <li><a class="dropdown-item" href="{{ route('introduction') }}">Введение</a></li>
                             <li><a class="dropdown-item" href="{{ route('installation') }}">Установка</a></li>
                             <li><a class="dropdown-item" href="{{ route('file-structure') }}">файловая структура</a>
+                            <li><a class="dropdown-item" href="{{ route('configuration') }}">конфигурирование
+                                    приложения</a>
+                            <li><a class="dropdown-item" href="{{ route('DB-type-conf') }}">конфигурирование типа БД</a>
                             </li>
                         </ul>
                     </div>

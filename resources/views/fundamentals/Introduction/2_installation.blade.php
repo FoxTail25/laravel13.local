@@ -1,10 +1,14 @@
 <x-layout-base :title="$title">
+
+
     <x-page.theme-header>
         Введение в PHP фреймворк Laravel
     </x-page.theme-header>
+
     <x-page.page-header>
         Подготовка
     </x-page.page-header>
+
     <x-page.page-text>
         Для начала, желательно убедится что у вас стоит php 8.3 или более поздняя версия. Для этого
         достаточно в терминале набрать команду <x-page.page-code>php -v</x-page.page-code>
@@ -14,16 +18,20 @@
         (точки с запятой). Так же желательно что бы были раскоментирваны следующие строки: extension=curl,
         extension=fileinfo, extension=mbstring, extension=openssl, extension=pdo_mysql
     </x-page.page-text>
+
     <x-page.page-header>
         Установка
     </x-page.page-header>
-    Рекомендуется устанавливать фреймворк через Composer.
-    <br />
-    Если всё в порядке, то заходим в свой редактор кода (я использую Visual Studio Code), выбираем папку, в которой
-    будет установлена директория с фреймворком. И пишем в терминале команду
-    <x-page.page-code>composer create-project laravel/laravel laravel.local</x-page.page-code>
-    (laravel.local — это имя папки, которую Composer создаст в вашей текущей директории и куда скачает весь проект.)
+
+    <x-page.page-text>
+        Рекомендуется устанавливать фреймворк через Composer.
+        <br />
+        Если всё в порядке, то заходим в свой редактор кода (я использую Visual Studio Code), выбираем папку, в которой
+        будет установлена директория с фреймворком. И пишем в терминале команду
+        <x-page.page-code>composer create-project laravel/laravel laravel.local</x-page.page-code>
+        (laravel.local — это имя папки, которую Composer создаст в вашей текущей директории и куда скачает весь проект.)
     </x-page.page-text>
+
     <x-page.page-text>
         Когда установка будет успешно завершена, вам нужно будет запустить фреймворк. Для этого в терминале
         перейдите в папку с установленным фреймворком: <x-page.page-code>cd laravel.local</x-page.page-code>
@@ -34,5 +42,4 @@
         фреймворк через Artisan нужно будет каждый раз перед началом работы. Поэтому запомните или запишите
         нужную команду.
     </x-page.page-text>
-
 </x-layout-base>

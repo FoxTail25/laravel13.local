@@ -17,5 +17,11 @@ Route::prefix('fundamentals')->group(function () {
         Route::get('file-structure', function () {
             return view('fundamentals.Introduction.3_file-structure', ['title' => 'файловая структура', ]);
         })->name('file-structure');
+        Route::get('configuration', function () {
+            return view('fundamentals.Introduction.4_configuration', ['title' => 'конфигурирование', ]);
+        })->name('configuration');
+        Route::get('DB-type-conf', function () {
+            return view('fundamentals.Introduction.5_DB-type-conf', ['title' => 'тип БД', ]);
+        })->name('DB-type-conf');
     });
 });
