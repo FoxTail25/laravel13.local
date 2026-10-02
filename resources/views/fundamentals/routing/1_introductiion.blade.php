@@ -11,10 +11,10 @@
         Маршруты настраиваются в файле <code>routes/web.php</code>. Изначально там уже есть вот такой маршрут:
     </x-page.page-text>
 
-    <pre class="watermark-block">use Illuminate\Support\Facades\Route;
+    <x-page.pre>use Illuminate\Support\Facades\Route;
 
-	Route::get('/', function () {
-		return view('welcome');
-	});</pre>
+        Route::get('/', function () {
+        return view('welcome');
+        });</x-page.pre>
 
 </x-layout-base>
